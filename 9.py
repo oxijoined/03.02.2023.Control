@@ -22,7 +22,7 @@ def scrabble(word):
             result+=scores[char.upper()]
         except:
             pass
-    print(result)
+    return result
     
     
-scrabble("kgpk")
+print(scrabble("kgpk"))
